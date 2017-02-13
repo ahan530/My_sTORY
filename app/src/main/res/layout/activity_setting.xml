@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/login_registerBlackFont"
+    tools:context="qf.com.my_story.view.SettingActivity">
+    <android.support.v7.widget.Toolbar
+        android:background="@drawable/title_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionBar_height">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设  置"
+            android:textSize="@dimen/text_large"
+            android:textColor="@color/login_registerBlackFont"/>
+        <ImageView
+            android:id="@+id/setting_back"
+            android:src="@drawable/fanhui"
+            android:layout_width="@dimen/actionBar_widget_both"
+            android:layout_height="@dimen/actionBar_widget_both" />
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_marginTop="@dimen/distance_lager"
+        android:background="@color/colorMainBackground"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingBottom="@dimen/distance_more"
+            android:paddingTop="@dimen/distance_more"
+            android:paddingLeft="@dimen/distance_more"
+            android:textSize="@dimen/text_large"
+            android:text="@string/setting_tv1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:layout_marginTop="@dimen/distance_more"
+            android:layout_marginBottom="@dimen/distance_more"
+            android:background="@drawable/input"
+            android:layout_width="@dimen/icon_min_both"
+            android:layout_height="@dimen/icon_min_both"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+    <TextView
+
+        android:background="@color/login_registerBlackFont"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <RelativeLayout
+        android:background="@color/colorMainBackground"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingBottom="@dimen/distance_more"
+            android:paddingTop="@dimen/distance_more"
+            android:paddingLeft="@dimen/distance_more"
+            android:textSize="@dimen/text_large"
+            android:text="@string/setting_tv2"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:layout_marginTop="@dimen/distance_more"
+            android:layout_marginBottom="@dimen/distance_more"
+            android:background="@drawable/input"
+            android:layout_width="@dimen/icon_min_both"
+            android:layout_height="@dimen/icon_min_both"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <TextView
+
+        android:background="@color/login_registerBlackFont"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+<RelativeLayout
+    android:background="@color/colorMainBackground"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingBottom="@dimen/distance_more"
+            android:paddingTop="@dimen/distance_more"
+            android:paddingLeft="@dimen/distance_more"
+            android:textSize="@dimen/text_large"
+            android:text="@string/setting_tv3"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:layout_marginTop="@dimen/distance_more"
+            android:layout_marginBottom="@dimen/distance_more"
+            android:background="@drawable/input"
+            android:layout_width="@dimen/icon_min_both"
+            android:layout_height="@dimen/icon_min_both"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <TextView
+
+        android:background="@color/login_registerBlackFont"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+<RelativeLayout
+    android:background="@color/colorMainBackground"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingBottom="@dimen/distance_more"
+            android:paddingTop="@dimen/distance_more"
+            android:paddingLeft="@dimen/distance_more"
+            android:textSize="@dimen/text_large"
+            android:text="@string/setting_tv4"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:layout_marginTop="@dimen/distance_more"
+            android:layout_marginBottom="@dimen/distance_more"
+            android:background="@drawable/input"
+            android:layout_width="@dimen/icon_min_both"
+            android:layout_height="@dimen/icon_min_both"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <TextView
+
+        android:background="@color/login_registerBlackFont"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+<RelativeLayout
+    android:background="@color/colorMainBackground"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingBottom="@dimen/distance_more"
+            android:paddingTop="@dimen/distance_more"
+            android:paddingLeft="@dimen/distance_more"
+            android:textSize="@dimen/text_large"
+            android:text="@string/setting_tv5"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:layout_marginTop="@dimen/distance_more"
+            android:layout_marginBottom="@dimen/distance_more"
+            android:background="@drawable/input"
+            android:layout_width="@dimen/icon_min_both"
+            android:layout_height="@dimen/icon_min_both"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <TextView
+
+        android:background="@color/login_registerBlackFont"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+<RelativeLayout
+    android:background="@color/colorMainBackground"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingBottom="@dimen/distance_more"
+            android:paddingTop="@dimen/distance_more"
+            android:paddingLeft="@dimen/distance_more"
+            android:textSize="@dimen/text_large"
+            android:text="@string/setting_tv6"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:layout_marginTop="@dimen/distance_more"
+            android:layout_marginBottom="@dimen/distance_more"
+            android:background="@drawable/input"
+            android:layout_width="@dimen/icon_min_both"
+            android:layout_height="@dimen/icon_min_both"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

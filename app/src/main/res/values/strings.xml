@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">My_Story</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="guidetag_name">CopyRight@1008phone.com</string>
+    <string name="bellow_tag">细说我们的故事</string>
+    <string name="login_id">账  号:</string>
+    <string name="login_pwd">密  码:</string>
+    <string name="login_dv">登  陆</string>
+    <string name="login_zc">没有账号？点击注册</string>
+
+    <string name="login_bt">用户登陆</string>
+    <string name="register_bt">用户注册</string>
+    <string name="register_name">昵  称</string>
+    <string name="register_zc">注  册</string>
+    <string name="story_details_tooltv">故事详情</string>
+    <string name="action_settings">Settings</string>
+
+    <!--这是设置页面-->
+    <string name="setting_tv1">鼓励我们</string>
+    <string name="setting_tv2">捐助我们</string>
+    <string name="setting_tv3">系统消息</string>
+    <string name="setting_tv4">检查更新</string>
+    <string name="setting_tv5">常见问题</string>
+    <string name="setting_tv6">关于我们</string>
+
+    <!--这个是个人中心-->
+    <string name="mycenter_tv1">账 号：</string>
+    <string name="mycenter_tv2">呢 称：</string>
+    <string name="mycenter_tv3">性 别：</string>
+    <string name="mycenter_tv4">邮 箱：</string>
+    <string name="mycenter_tv5">生 日：</string>
+    <string name="mycenter_button">确认修改</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

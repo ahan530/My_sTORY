@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_log_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_registerBlackFont"
+    android:orientation="vertical"
+    tools:context="qf.com.my_story.view.LogInActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/login_toolbar"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary"
+        android:layout_height="@dimen/actionBar_height">
+        <ImageView
+            android:id="@+id/login_back"
+            android:background="@drawable/fanhui"
+            android:layout_width="@dimen/actionBar_widget_both"
+            android:layout_height="@dimen/actionBar_widget_both" />
+        <TextView
+            android:textSize="@dimen/text_large"
+            android:layout_gravity="center"
+            android:textColor="@color/colorMainBackground"
+            android:text="@string/login_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </android.support.v7.widget.Toolbar>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_login"
+        />
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/title"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bellow_tag"/>
+
+
+</RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/distance_medium"
+        android:background="#ffffff"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="@dimen/distance_less"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/login_id"/>
+        <EditText
+            android:id="@+id/login_username"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="@dimen/distance_less"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/login_pwd"/>
+        <EditText
+            android:id="@+id/login_userpasswold"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_alignParentRight="true"
+            android:id="@+id/login__checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="@dimen/distance_less"
+            android:layout_toLeftOf="@id/login__checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="记住账号密码"/>
+    </RelativeLayout>
+
+    <Button
+        android:onClick="login_btn"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_marginTop="18dp"
+        android:layout_height="@dimen/actionBar_height"
+        android:background="?attr/colorPrimary"
+        android:id="@+id/login_btn"
+        android:text="@string/login_dv"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        />
+    <TextView
+        android:id="@+id/login_noid"
+        android:layout_gravity="right"
+        android:text="@string/login_zc"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

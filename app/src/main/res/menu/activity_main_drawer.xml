@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_newtalk"
+            android:icon="@drawable/icon_home"
+            android:title="故事详情" />
+        <item
+            android:id="@+id/nav_mystory"
+            android:icon="@drawable/icon_mystory"
+            android:title="我的故事" />
+        <item
+            android:id="@+id/nav_newhistory"
+            android:icon="@drawable/icon_record"
+            android:title="新的故事" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/icon_mine"
+            android:title="个人信息" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/icon_setting"
+            android:title="系统设置" />
+    </group>
+
+
+
+</menu>

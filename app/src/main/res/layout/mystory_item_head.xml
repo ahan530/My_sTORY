@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@drawable/mine_bg"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:id="@+id/mystory_introduce"
+            android:text="我是90后"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/mystory_name"
+            android:text="小妞爱跑堂"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/mystory_name"
+            android:background="@drawable/icon_woman"
+            android:layout_width="@dimen/icon_less_both"
+            android:layout_height="@dimen/icon_less_both" />
+        <ImageView
+            android:id="@+id/mystory_head"
+            android:layout_alignParentRight="true"
+            android:layout_above="@id/mystory_name"
+            android:background="@color/colorPicBackground"
+            android:layout_width="@dimen/icon_more_best"
+            android:layout_height="@dimen/icon_more_best" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

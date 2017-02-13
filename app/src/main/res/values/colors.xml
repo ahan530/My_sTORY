@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!--主背景色-->
+    <color name="colorMainBackground">#F4F4F4</color>
+    <color name="colorBackground_self">#898989</color>
+    <!--图片背景色-->
+    <color name="colorPicBackground">#45CDCDCD</color>
+
+    <!--常用字体颜色-->
+    <color name="colorNormalFont">#494949</color>
+    <color name="back_back">#2A2A2A</color>
+    <!--标题字体颜色-->
+    <color name="colorBlueFont">#3263a3</color>
+    <!--黑色字体-->
+    <color name="colorBlackFont">#070707</color>
+    <color name="login_registerBlackFont">#e7e7e7</color>
+
+</resources>

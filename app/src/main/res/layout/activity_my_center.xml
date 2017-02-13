@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground_self"
+    tools:context="qf.com.my_story.view.MyCenterActivity">
+    <android.support.v7.widget.Toolbar
+        android:background="@drawable/title_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionBar_height">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人中心"
+            android:textSize="@dimen/text_large"
+            android:textColor="@color/login_registerBlackFont"/>
+        <ImageView
+            android:id="@+id/mycenter_back"
+            android:src="@drawable/fanhui"
+            android:layout_width="@dimen/actionBar_widget_both"
+            android:layout_height="@dimen/actionBar_widget_both" />
+    </android.support.v7.widget.Toolbar>
+    <ImageView
+        android:id="@+id/mycenter_headimg"
+        android:layout_marginTop="@dimen/distance_medium"
+        android:layout_marginBottom="@dimen/distance_medium"
+        android:background="@drawable/timg"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/icon_more_best2"
+        android:layout_height="@dimen/icon_more_best2"
+        />
+    <LinearLayout
+        android:background="@color/colorMainBackground"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingBottom="@dimen/distance_more"
+            android:paddingTop="@dimen/distance_more"
+            android:paddingLeft="@dimen/distance_more"
+            android:textSize="@dimen/text_large"
+            android:text="@string/mycenter_tv1"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mycenter_username"
+            android:layout_weight="9"
+            android:text="你的账号"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:layout_marginTop="@dimen/distance_more"
+            android:layout_marginBottom="@dimen/distance_more"
+            android:layout_width="@dimen/icon_min_both"
+            android:layout_height="@dimen/icon_min_both"
+            android:layout_alignParentRight="true"
+            />
+    </LinearLayout>
+    <TextView
+
+        android:background="@color/colorBackground_self"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:background="@color/colorMainBackground"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingBottom="@dimen/distance_more"
+            android:paddingTop="@dimen/distance_more"
+            android:paddingLeft="@dimen/distance_more"
+            android:textSize="@dimen/text_large"
+            android:text="@string/mycenter_tv2"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_weight="9"
+            android:id="@+id/mycenter_nickname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:layout_marginTop="@dimen/distance_more"
+            android:layout_marginBottom="@dimen/distance_more"
+            android:background="@drawable/input"
+            android:layout_width="@dimen/icon_min_both"
+            android:layout_height="@dimen/icon_min_both"
+            android:layout_alignParentRight="true"
+            />
+    </LinearLayout>
+    <TextView
+
+        android:background="@color/colorBackground_self"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:background="@color/colorMainBackground"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingBottom="@dimen/distance_more"
+            android:paddingTop="@dimen/distance_more"
+            android:paddingLeft="@dimen/distance_more"
+            android:textSize="@dimen/text_large"
+            android:text="@string/mycenter_tv3"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/mycenter_seximg"
+                android:layout_marginTop="@dimen/distance_less"
+                android:layout_width="@dimen/icon_less_both"
+                android:layout_height="@dimen/icon_less_both" />
+            <Spinner
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                />
+
+
+        </LinearLayout>
+        <ImageView
+
+            android:layout_marginTop="@dimen/distance_more"
+            android:layout_marginBottom="@dimen/distance_more"
+            android:background="@drawable/input"
+            android:layout_width="@dimen/icon_min_both"
+            android:layout_height="@dimen/icon_min_both"
+            android:layout_alignParentRight="true"
+            />
+    </LinearLayout>
+    <TextView
+
+        android:background="@color/colorBackground_self"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:background="@color/colorMainBackground"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingBottom="@dimen/distance_more"
+            android:paddingTop="@dimen/distance_more"
+            android:paddingLeft="@dimen/distance_more"
+            android:textSize="@dimen/text_large"
+            android:text="@string/mycenter_tv4"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_weight="9"
+            android:id="@+id/mycenter_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:layout_marginTop="@dimen/distance_more"
+            android:layout_marginBottom="@dimen/distance_more"
+            android:background="@drawable/input"
+            android:layout_width="@dimen/icon_min_both"
+            android:layout_height="@dimen/icon_min_both"
+            android:layout_alignParentRight="true"
+            />
+    </LinearLayout>
+    <TextView
+
+        android:background="@color/colorBackground_self"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:background="@color/colorMainBackground"
+        android:layout_marginRight="@dimen/distance_less"
+        android:layout_marginLeft="@dimen/distance_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingBottom="@dimen/distance_more"
+            android:paddingTop="@dimen/distance_more"
+            android:paddingLeft="@dimen/distance_more"
+            android:textSize="@dimen/text_large"
+            android:text="@string/mycenter_tv5"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_weight="9"
+            android:hint="请选择生日"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:layout_marginTop="@dimen/distance_more"
+            android:layout_marginBottom="@dimen/distance_more"
+            android:background="@drawable/input"
+            android:layout_width="@dimen/icon_min_both"
+            android:layout_height="@dimen/icon_min_both"
+            android:layout_alignParentRight="true"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mycenter_btn"
+        android:textSize="@dimen/text_large"
+        android:background="@drawable/bottm_bg"
+        android:layout_marginTop="@dimen/distance_medium"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/mycenter_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/distance_lager" />
+    <RelativeLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#F30C23"
+            android:layout_alignParentRight="true"
+            android:id="@+id/mycenter_pwd"
+            android:text="修改密码"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

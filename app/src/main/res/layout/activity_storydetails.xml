@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_talk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="qf.com.my_story.view.StoryDetailsActivity">
+    <android.support.v7.widget.Toolbar
+        android:background="@drawable/title_bg"
+        android:id="@+id/myStory_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:text="@string/story_details_tooltv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:id="@+id/storydetails_back"
+            android:src="@drawable/fanhui"
+            android:layout_width="@dimen/actionBar_widget_both"
+            android:layout_height="@dimen/actionBar_widget_both" />
+        <ImageView
+            android:layout_marginRight="@dimen/distance_medium"
+            android:layout_gravity="right"
+            android:id="@+id/mycenter_iveditor"
+            android:src="@drawable/icon_edit"
+            android:layout_width="@dimen/actionBar_widget_both"
+            android:layout_height="@dimen/actionBar_widget_both" />
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="@drawable/icon_face"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="35dp" />
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="@drawable/icon_send"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/myStory_toolbar"
+        android:layout_above="@id/linear1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            layout="@layout/storydetails_item"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            >
+
+        </include>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

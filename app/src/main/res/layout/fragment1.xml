@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="qf.com.my_story.view.Fragment1">
+<com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+    android:id="@+id/twinkling_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:tr_wave_height="120dp"
+    app:tr_head_height="120dp">
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/fragment1_listview"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+      </android.support.v7.widget.RecyclerView>
+</com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+
+
+
+
+
+</LinearLayout>
